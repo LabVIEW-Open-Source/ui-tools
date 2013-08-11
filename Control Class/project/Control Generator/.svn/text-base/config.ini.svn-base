@@ -1,0 +1,22 @@
+[Source]
+Icon source="/C/Users/normandinf/Documents/LabVIEW Data/Icon Source/nuvola/22x22"
+[Create control.vi]
+fade=500
+[last state]
+Action=4
+Orientations=8
+Icon (*.png)="/C/Users/normandinf/Documents/LabVIEW Data/Icon Source/nuvola/22x22/actions/1downarrow.png"
+Control Text=1downarrow
+Style=8
+Text Color=0
+Scale=1.000000
+Close afterwards=FALSE
+[Font]
+Font Name:=Tahoma
+Size=13
+Strikeout?=FALSE
+Italic?=FALSE
+Underline?=FALSE
+Outline?=FALSE
+Shadow?=FALSE
+Bold?=TRUE
