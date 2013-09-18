@@ -209,18 +209,6 @@
 								<Item Name="GlassWeb_2.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/GlassWeb/GlassWeb_2.png"/>
 								<Item Name="GlassWeb_3.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/GlassWeb/GlassWeb_3.png"/>
 							</Item>
-							<Item Name="Mac" Type="Folder">
-								<Item Name="Mac.ctl" Type="VI" URL="../Control Class/lvdata/LAVA/Control Templates/Mac/Mac.ctl"/>
-								<Item Name="Mac_1.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mac/Mac_1.png"/>
-								<Item Name="Mac_2.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mac/Mac_2.png"/>
-								<Item Name="Mac_3.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mac/Mac_3.png"/>
-							</Item>
-							<Item Name="Mandelbrot" Type="Folder">
-								<Item Name="Mandelbrot.ctl" Type="VI" URL="../Control Class/lvdata/LAVA/Control Templates/Mandelbrot/Mandelbrot.ctl"/>
-								<Item Name="Mandelbrot_1.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mandelbrot/Mandelbrot_1.png"/>
-								<Item Name="Mandelbrot_2.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mandelbrot/Mandelbrot_2.png"/>
-								<Item Name="Mandelbrot_3.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/Mandelbrot/Mandelbrot_3.png"/>
-							</Item>
 							<Item Name="OfficeXP" Type="Folder">
 								<Item Name="OfficeXP.ctl" Type="VI" URL="../Control Class/lvdata/LAVA/Control Templates/OfficeXP/OfficeXP.ctl"/>
 								<Item Name="OfficeXP_1.png" Type="Document" URL="../Control Class/lvdata/LAVA/Control Templates/OfficeXP/OfficeXP_1.png"/>
@@ -285,8 +273,6 @@
 				<Item Name="errors.txt" Type="Document" URL="../Control Class/errors.txt"/>
 				<Item Name="UI Tools - Control Class Addon License.txt" Type="Document" URL="../Control Class/UI Tools - Control Class Addon License.txt"/>
 				<Item Name="Test CTL class.vi" Type="VI" URL="../ControlGen/Test CTL class.vi"/>
-				<Item Name="Template2.ctl" Type="VI" URL="../ControlGen/ctl_class/Template2.ctl"/>
-				<Item Name="Template.ctl" Type="VI" URL="../ControlGen/ctl_class/Template.ctl"/>
 				<Item Name="ctl.lvclass" Type="LVClass" URL="../ControlGen/ctl_class/ctl.lvclass"/>
 			</Item>
 			<Item Name=".vipb" Type="Document" URL="../.vipb"/>
@@ -691,6 +677,43 @@
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="test" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0F147581-071F-4654-9E41-205066588E25}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{49E98AF8-CFC7-45E9-9232-4F37892D2765}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{345ECA18-EA97-4C31-ACDE-94E15487E7F2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">test</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Francois/Documents/_DESIM/builds</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3C704AEC-5FA1-4245-B5F7-702926FC8BDE}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Francois/Documents/_DESIM/builds/Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Francois/Documents/_DESIM/builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{53562C31-35EF-4F88-B08A-0BC73FDEF53A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UITools/Dialog/_testDialogs.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 </Property>
+				<Property Name="TgtF_productName" Type="Str">test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{198C8215-1299-4BF3-B456-87DFE45DA852}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
