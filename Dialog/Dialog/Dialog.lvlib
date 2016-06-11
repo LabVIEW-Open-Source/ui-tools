@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.LocalName" Type="Str">Dialog</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">302022660</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Dialog.lvclass" Type="LVClass" URL="../Dialog/Dialog.lvclass"/>
 </Library>
