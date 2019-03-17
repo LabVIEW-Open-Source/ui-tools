@@ -1,1 +1,4 @@
 Thumbs.db
+syntax: glob
+*.aliases
+*.lvlps
