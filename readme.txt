@@ -1,6 +1,6 @@
-UI Tools v1.2.0
+UI Tools v1.5.0
 
-Copyright © 2009-2011, François Normandin
+Copyright © 2009-2019, François Normandin
 All rights reserved.
 
 
@@ -8,7 +8,7 @@ Author:François Normandin
 Contact Info: Contact via PM on www.lavag.org
 
 LabVIEW Versions:
-Created and tested with LabVIEW 8.6
+Created and tested with LabVIEW 2013
 
 Dependencies:
 oglib_appcontrol >= 2.10
