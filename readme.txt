@@ -4,11 +4,8 @@
 
 # UI Tools v1.4.1 build 74
 
-Copyright © 2009-2016, François Normandin
-All rights reserved.
-
-
-Author:François Normandin
+Author:François Normandin (2009-2016)
+--> See new license (public domain - The Unlicense)
 Contact Info: Contact via PM on www.lavag.org
 
 LabVIEW Versions:
