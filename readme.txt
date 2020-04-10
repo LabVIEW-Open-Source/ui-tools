@@ -5,7 +5,7 @@
 # UI Tools v1.4.1 build 74
 
 Author:François Normandin (2009-2016)
---> See new license (public domain - The Unlicense)
+--> See new license (0-Clause BSD)
 Contact Info: Contact via PM on www.lavag.org
 
 LabVIEW Versions:
@@ -42,8 +42,8 @@ Instructions:
 This package is distributed on the LabVIEW Tools Network (version 1.3) and updates are on LAVA (1.4). It can be installed directly in the addon folder of any LabVIEW version from 2012 to now. The addon installs automatically under the LAVA palette of the addon submenu.
 
 License:
-(NOTE THE CHANGE OF LICENSE - EFFECTIVE OCTOBER 25TH 2019)
-This code is published under "The Unlicense" terms. Please refer to the Github license links for more information.
+(NOTE THE CHANGE OF LICENSE - EFFECTIVE APRIL 1ST 2020)
+This code is published under 0-BSD terms. Please refer to the Github license links for more information.
 
 Support:
 
